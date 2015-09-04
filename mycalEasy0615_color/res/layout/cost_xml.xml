@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg3"
+    android:gravity="center_vertical|fill_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cost_txtTi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost_tital"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#816a43" />
+
+    <TextView
+        android:id="@+id/cost_txt_dollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost_dollar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#639162" />
+
+    <EditText
+        android:id="@+id/calu_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:ems="10"
+        android:hint="@string/Calu_hint"
+        android:inputType="numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/cost_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/cost_calu"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/back_Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/save"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

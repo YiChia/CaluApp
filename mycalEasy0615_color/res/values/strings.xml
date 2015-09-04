@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mycal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cost_tital">消費計算</string>
+    <string name="cost_dollar">花費金額</string>
+    <string name="cost_calu">計算</string>
+    <string name="toal_btn">返回</string>
+    <string name="total_title">本月花費累計</string>
+    <string name="total_num">元</string>
+    <string name="btn_total">統計</string>
+    <string name="cost_Back">返回</string>
+    <string name="save">儲存</string>
+    <string name="Calu_hint">請輸入金額</string>
+
+</resources>
